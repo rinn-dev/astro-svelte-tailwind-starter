@@ -1,0 +1,47 @@
+{
+	"name": "astro-svelte-starter",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"prepare": "husky install",
+		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. . && eslint ./src --fix"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^0.19.7",
+		"@astrojs/rss": "^2.4.4",
+		"@astrojs/sitemap": "^2.0.1",
+		"@astrojs/svelte": "^3.1.0",
+		"@astrojs/tailwind": "^4.0.0",
+		"astro": "^2.10.3",
+		"clsx": "^2.0.0",
+		"gsap": "^3.12.2",
+		"svelte": "^4.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.7",
+		"@commitlint/config-conventional": "^17.6.7",
+		"@typescript-eslint/parser": "^6.3.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.46.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-astro": "^0.28.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-svelte": "^2.32.4",
+		"eslint-plugin-tailwindcss": "^3.13.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.3",
+		"postcss": "^8.4.27",
+		"prettier": "^3.0.1",
+		"prettier-plugin-astro": "^0.11.0",
+		"prettier-plugin-svelte": "^3.0.3",
+		"prettier-plugin-tailwindcss": "^0.4.1",
+		"sass": "^1.64.2",
+		"tailwindcss": "^3.3.3"
+	}
+}
